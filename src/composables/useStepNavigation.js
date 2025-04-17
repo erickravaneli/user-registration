@@ -7,7 +7,7 @@ const Step4Personal = defineAsyncComponent(() => import('@/components/Step4Perso
 const Step4Business = defineAsyncComponent(() => import('@/components/Step4Business.vue'))
 
 export function useStepNavigation(user) {
-  const currentStep = ref('4personal')
+  const currentStep = ref('1')
   const transitionName = ref('slide-left')
 
   const stepsMap = {
