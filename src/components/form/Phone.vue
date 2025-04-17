@@ -39,7 +39,7 @@ watch(
     <label class="label" for="phone">Telefone</label>
     <input
       class="input"
-      type="text"
+      type="phone"
       id="phone"
       v-model="model"
       v-mask="['(##) ####-####', '(##) #####-####']"

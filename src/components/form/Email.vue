@@ -36,7 +36,7 @@ watch(
 <template>
   <div class="form-group">
     <label class="label" for="email">Endereço de e-mail</label>
-    <input class="input" type="text" id="email" v-model="model" />
+    <input class="input" type="email" id="email" v-model="model" />
     <p v-if="finished && !isValid" class="error-message">{{ errorMessage }}</p>
   </div>
 </template>
