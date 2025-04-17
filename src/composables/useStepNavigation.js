@@ -59,9 +59,7 @@ export function useStepNavigation(user) {
       component: Step4Personal,
       stepNumber: '4',
       title: 'Revise suas informações',
-      moveForward: () => {
-        console.log('Final step reached!')
-      },
+      moveForward: () => {},
       moveBack: () => {
         currentStep.value = '3'
       }
@@ -70,9 +68,7 @@ export function useStepNavigation(user) {
       component: Step4Business,
       stepNumber: '4',
       title: 'Revise suas informações',
-      moveForward: () => {
-        console.log('Final step reached!')
-      },
+      moveForward: () => {},
       moveBack: () => {
         currentStep.value = '3'
       }

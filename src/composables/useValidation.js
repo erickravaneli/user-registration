@@ -17,7 +17,6 @@ export function useValidation(valueRef, emit, rules = {}) {
     if (rules.email) {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
       if (!emailRegex.test(value)) {
-        console.log('Email inválido')
         isValid.value = false
         errorMessage.value = 'Email inválido'
         emit('update:isFieldValid', isValid.value)

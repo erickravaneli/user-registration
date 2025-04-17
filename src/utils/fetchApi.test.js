@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import fetchApi from '@/helpers/fetchApi'
+import fetchApi from '@/utils/fetchApi'
 
 global.fetch = vi.fn()
 
