@@ -8,7 +8,7 @@ Este projeto foi desenvolvido para demonstrar minhas habilidades no desenvolvime
 
 O projeto está publicado no Render e pode ser acessado através do link (aparentemente o projeto não fica disponível o tempo todo por limitação da conta gratuita):
 
-👉 [https://user-registration-h4ax.onrender.com](https://user-registration-h4ax.onrender.com)
+👉 [https://user-registration-21z6.onrender.com](https://user-registration-21z6.onrender.com)
 
 ---
 
